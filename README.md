@@ -19,7 +19,7 @@ trap-based level design, and player expectation subversion.
 3. Clone the Repository
 ```
 git clone https://github.com/MaximoMaturana/trust_issues_pygame.git 
-cd trust-issues-pygame
+cd trust_issues_pygame
 ```
 4. Create and Activate Virtual Environment
 
