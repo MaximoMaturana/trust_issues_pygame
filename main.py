@@ -484,6 +484,8 @@ def main():
             draw_center(screen, font_big, "TRUST ISSUES", 80, ACCENT)
             draw_center(screen, font_small, "Pick level: 1-9, 0=10, F1=11, F2=12", 140, (200, 200, 200))
             draw_center(screen, font_small, f"Mode: {'MIRRORED' if mgr.mirrored else 'NORMAL'}  (press M)", 170, (170, 170, 170))
+            footer = font_small.render("© 2026 Trust Issues", True, (120, 120, 120))
+            screen.blit(footer, (WIDTH // 2 - footer.get_width() // 2, HEIGHT - 30))
 
             y = 240
             for i, lv in enumerate(mgr.base_levels):
