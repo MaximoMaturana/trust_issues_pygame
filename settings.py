@@ -7,7 +7,7 @@ TITLE = "Trust Issues - A Not-So-Friendly Platformer"
 
 # Physics settings
 GRAVITY = 2200.0  # Gravity affecting the player
-PLAYER_SPEED = 360.0  # Speed of the player
+PLAYER_SPEED = 700.0  # Speed of the player
 PLAYER_JUMP = 780.0  # Jump force
 FRICTION = 0.82  # Friction applied to the player
 
